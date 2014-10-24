@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+
   <profile lock="1" name="Star Citizen" gkeysdk="0" guid="{82156371-15BC-497C-AD7B-8922D6FD59A1}">
     <description></description>
     <target path="C:\USERS\GOLTH_000\DOCUMENTS\STARCITIZEN\LAUNCHER\STARCITIZENLAUNCHER.EXE"/>
