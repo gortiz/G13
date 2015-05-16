@@ -114,8 +114,6 @@ public class HardwareG13 implements G13 {
         int stickX = data.get() & 0xFF;
         int stickY = data.get() & 0xFF;
         
-        System.out.println(byte0);
-        
         return new G13State(parseKeys(BitSet.valueOf(data)), stickX, stickY);
     }
     

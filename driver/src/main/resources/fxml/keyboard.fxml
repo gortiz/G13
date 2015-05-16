@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="708.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="keyboard" layoutX="95.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../images/g13.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bdKey" layoutX="110.0" layoutY="109.0" onMouseClicked="#onMouseClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/bd.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lightKey" layoutX="358.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/light.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g1Key" layoutX="48.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g2Key" layoutX="114.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g3Key" layoutX="168.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g4Key" layoutX="223.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g5Key" layoutX="276.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g6Key" layoutX="329.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g7Key" layoutX="380.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g8Key" layoutX="48.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g8.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g9Key" layoutX="110.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g9.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g10Key" layoutX="166.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g10.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g11Key" layoutX="223.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g11.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g12Key" layoutX="277.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g12.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g13Key" layoutX="332.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g13.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g14Key" layoutX="386.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g14.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g15Key" layoutX="81.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g15.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g16Key" layoutX="163.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g16.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g17Key" layoutX="221.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g17.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g18Key" layoutX="278.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g18.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g19Key" layoutX="334.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g19.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g20Key" layoutX="118.0" layoutY="343.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g20.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g21Key" layoutX="217.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g21.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="g22Key" layoutX="278.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/g22.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="m1Key" layoutX="94.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/m1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="m2Key" layoutX="172.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/m2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="m3Key" layoutX="246.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/m3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mrKey" layoutX="320.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/mr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="downKey" layoutX="392.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/down.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="leftKey" layoutX="360.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/left.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="l1Key" layoutX="160.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/l1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="l2Key" layoutX="204.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/l2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="l3Key" layoutX="248.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/l3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="l4Key" layoutX="292.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/keys/l4.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
