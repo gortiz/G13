@@ -13,6 +13,8 @@ import javax.annotation.concurrent.Immutable;
 @Immutable
 public class G13State {
 
+    public static final G13State REPOSE_STATE = new G13State(ImmutableSet.of(), 0, 0);
+
     private final ImmutableSet<G13Key> pressedKeys;
     private final int stickX;
     private final int stickY;

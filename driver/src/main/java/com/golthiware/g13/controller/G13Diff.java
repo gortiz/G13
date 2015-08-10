@@ -13,17 +13,17 @@ import javax.annotation.concurrent.Immutable;
 public class G13Diff {
 
     private final ImmutableSet<G13Key> pressedKeys;
-    private final ImmutableSet<G13Key> released;
+    private final ImmutableSet<G13Key> releasedKeys;
     private final int deltaX;
     private final int deltaY;
 
     private G13Diff(
             ImmutableSet<G13Key> pressedKeys, 
-            ImmutableSet<G13Key> released, 
+            ImmutableSet<G13Key> releasedKeys,
             int deltaX, 
             int deltaY) {
         this.pressedKeys = pressedKeys;
-        this.released = released;
+        this.releasedKeys = releasedKeys;
         this.deltaX = deltaX;
         this.deltaY = deltaY;
     }
@@ -43,8 +43,8 @@ public class G13Diff {
         return pressedKeys;
     }
 
-    public ImmutableSet<G13Key> getReleased() {
-        return released;
+    public ImmutableSet<G13Key> getReleasedKeys() {
+        return releasedKeys;
     }
 
     public int getDeltaX() {
@@ -53,5 +53,11 @@ public class G13Diff {
 
     public int getDeltaY() {
         return deltaY;
+    }
+
+    @Override
+    public String toString() {
+        return "G13Diff{" + "pressedKeys=" + pressedKeys + ", releasedKeys=" +
+                releasedKeys + ", deltaX=" + deltaX + ", deltaY=" + deltaY + '}';
     }
 }

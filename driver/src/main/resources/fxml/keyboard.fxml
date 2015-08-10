@@ -19,7 +19,7 @@
       </ImageView>
       <ImageView fx:id="bdKey" layoutX="110.0" layoutY="109.0" onMouseClicked="#onMouseClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/keys/bd.gif" />
+            <Image url="@../images/keys/bd.pdf" />
          </image>
       </ImageView>
       <ImageView fx:id="lightKey" layoutX="358.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">

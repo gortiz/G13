@@ -46,4 +46,13 @@ public class G13Bean {
             properties.get(pressedKey).set(true);
         });
     }
+
+    public void apply(G13Diff diff) {
+        for (G13Key pressedKey : diff.getPressedKeys()) {
+            properties.get(pressedKey).set(true);
+        }
+        for (G13Key releasedKey : diff.getReleasedKeys()) {
+            properties.get(releasedKey).set(false);
+        }
+    }
 }
